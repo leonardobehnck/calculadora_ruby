@@ -37,6 +37,7 @@ puts "Digite qual operação matemática deseja realizar: "
 # captura do usuario qual operador
 operador = gets.chomp.to_i
 
+#A não ser que seja menor que 5 continua o programa
 unless operador < 5
   puts "Digite uma entrada válida"
   exit
