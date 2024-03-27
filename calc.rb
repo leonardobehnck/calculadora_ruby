@@ -69,7 +69,3 @@ case
   when operador == 4
     divisão(num1, num2)
 end
-
-
-
-
