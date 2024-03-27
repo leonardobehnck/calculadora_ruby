@@ -30,9 +30,9 @@ def divisão(a, b)
 
 # informa ao usuario da operação matematica
 puts "Digite qual operação matemática deseja realizar: "
-  for i in operadores
-    puts i
-  end
+operadores.each do |operador|
+  puts operador
+end
 
 # captura do usuario qual operador
 operador = gets.chomp.to_i
